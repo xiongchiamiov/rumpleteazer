@@ -1,0 +1,13 @@
+body > div > div {
+	border: 1px solid red;
+}
+
+body {
+	margin-bottom: 1em;
+	font-size: 100%;
+	color: #333;
+}
+
+body > div {
+	margin-top: 1em;
+}
