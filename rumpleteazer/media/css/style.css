@@ -1,18 +1,17 @@
 /*
-dark:   #140633
-medium: #1e0a4d
+dark:   #000
+medium: #222
 light:  #f6f2ff
 */
 
 .container > div > div {
 	border: 1px solid #f6f2ff;
-	background-color: #140633;
+	background-color: #222;
 }
 
 body {
 	font-size: 100%;
 	color: #f6f2ff;
-	background-color: blue;
 	background-image: url('/media/images/backgrounds/stars.png');
 	background-position: bottom left;
 	background-repeat: repeat;
