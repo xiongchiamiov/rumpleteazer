@@ -10,11 +10,25 @@
 	<![endif]-->
 	<link rel="stylesheet" href="/media/css/style.css" />
 </head>
-<body class="container">
+<body>
+	<div id="wrapper-1">
+	<div id="wrapper-2">
+	<div class="container">
 	<div id="header" class="span-24 last">
 		<div>
 		{% block header %}
-		
+			<div id="nav">
+				<a href="#">Home</a>
+				<a href="#">Articles</a>
+				<a href="#">Thoughts</a>
+				<a href="#">Contact</a>
+			</div>
+			<div id="sub-nav">
+				<a href="#">Foo</a>
+				<a href="#">Bar</a>
+				<a href="#">Lorem ipsum dolor</a>
+				<a href="#">Bazbaz</a>
+			</div>
 		{% endblock %}
 		</div>
 	</div>
@@ -35,9 +49,12 @@
 	<div id="footer" class="span-24 last">
 		<div>
 		{% block footer %}
-		
+			copyright and all that jazz
 		{% endblock %}
 		</div>
+	</div>
+	</div>
+	</div>
 	</div>
 </body>
 </html>
